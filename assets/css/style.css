@@ -303,6 +303,12 @@ h6 {
   }
 }
 
+@media (max-width: 424px) {
+  .logo img {
+    display: none;
+  }
+}
+
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
@@ -396,6 +402,24 @@ h6 {
   background: lavender;
   background-size: cover;
   padding-top: 110px;
+}
+
+#hero #mix-img{
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
 
 @media (max-width: 991px) {
@@ -649,6 +673,12 @@ section {
   #why-us .why-us-content {
     padding-top: 30px;
   }
+}
+
+#why-us img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 #why-us .why-us-content .features {
