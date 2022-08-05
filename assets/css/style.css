@@ -787,8 +787,8 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
+  background: #FF0086;
+  border: 3px solid #FF0086;
 }
 
 /* Features Section
@@ -829,7 +829,7 @@ section {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #1bb1dc;
+  color: #FF0086;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -881,7 +881,7 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #1bb1dc;
+  color: #FF0086;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -900,7 +900,7 @@ section {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #1bb1dc;
+  background: #250FA6;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
   display: inline-flex;
@@ -917,7 +917,7 @@ section {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #42c3e8;
+  background: #FF0086;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -926,7 +926,7 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #282646;
+  background: #413e66;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
@@ -1319,13 +1319,13 @@ section {
 #faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #1bb1dc;
+  font-family: #FF0086;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #158caf;
+  color: #FF0086;
   transition: 0.3s;
 }
 
@@ -1350,7 +1350,7 @@ section {
 }
 
 #faq .faq-list .collapsed:hover {
-  color: #1bb1dc;
+  color: #FF0086;
 }
 
 #faq .faq-list .collapsed .icon-show {
@@ -1441,7 +1441,7 @@ section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #1bb1dc;
+  background: #555186;
   color: #fff;
   margin-right: 4px;
   border-radius: 50%;
@@ -1457,7 +1457,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0a98c0;
+  background: #FF0086;
   color: #fff;
 }
 
@@ -1499,7 +1499,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #1bb1dc;
+  color: #FF0086;
 }
 
 #footer .footer-top .footer-footer {
@@ -1512,28 +1512,6 @@ section {
 
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-newsletter input[type=email] {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-  border: 1px solid #d9dde6;
-}
-
-#footer .footer-top .footer-newsletter input[type=submit] {
-  background: #1bb1dc;
-  border: 1px solid #1bb1dc;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-#footer .footer-top .footer-newsletter input[type=submit]:hover {
-  background: #0a98c0;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1571,11 +1549,11 @@ section {
 }
 
 #footer .credits a {
-  color: #1bb1dc;
+  color: #555186;
 }
 
 #footer .credits a:hover {
-  color: #0a98c0;
+  color: #FF0086;
 }
 
 
@@ -1664,7 +1642,7 @@ section {
 
 #contact .php-email-form input:focus,
 #contact .php-email-form textarea:focus {
-  border-color: #1bb1dc;
+  border-color: #FF0086;
 }
 
 #contact .php-email-form input {
@@ -1676,7 +1654,7 @@ section {
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #1bb1dc;
+  background: #250FA6;
   border: 0;
   border-radius: 3px;
   padding: 8px 30px;
@@ -1685,7 +1663,7 @@ section {
 }
 
 #contact .php-email-form button[type=submit]:hover {
-  background: #0a98c0;
+  background: #FF0086;
   cursor: pointer;
 }
 
