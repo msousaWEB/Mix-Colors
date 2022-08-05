@@ -304,13 +304,14 @@ h6 {
 }
 
 @media (max-width: 424px) {
-  .well-mix {
+  .well-mix,
+  #contact-img {
     display: none;
   }
 }
 
-@media (max-width: 750) {
-  .well-mix {
+@media (max-width: 991px) {
+  #contact-img {
     display: none;
   }
 }
