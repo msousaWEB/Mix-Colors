@@ -422,6 +422,7 @@ h6 {
 	overflow: hidden;
 	transform: translatey(0px);
 	animation: float 4s ease-in-out infinite;
+  max-width: 40%;
 }
 
 @keyframes float {
