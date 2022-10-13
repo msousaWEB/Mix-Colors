@@ -3,8 +3,8 @@
 
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"></a> -->
-      <h1 class="logo me-auto well-mix"><a href="index.html"><img src="assets/img/hero-logo.png" alt="" class="img-fluid"> mixcolors.</a></h1>
-      <a href="index.html" class="logo me-auto mobile-mix"><img src="assets/img/hero-logo.png" alt="" class="img-fluid"></a>
+      <h1 class="logo me-auto well-mix"><a href="index.php"><img src="assets/img/hero-logo.png" alt="" class="img-fluid"> mixcolors.</a></h1>
+      <a href="index.php" class="logo me-auto mobile-mix"><img src="assets/img/hero-logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
