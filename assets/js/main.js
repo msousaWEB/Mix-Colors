@@ -13,6 +13,15 @@
     }
   }
 
+  
+  var typingEffect = new Typed (".multiText", {
+    strings: ["Portfólio.", "Marketing.", "Design."],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1500,
+});
+
   /**
    * Easy event listener function
    */

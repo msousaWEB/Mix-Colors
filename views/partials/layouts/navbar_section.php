@@ -8,17 +8,17 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Sobre nós</a></li>
           <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfólio</a></li>
+          <li><a class="nav-link scrollto " href="#contact">Contato</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bi bi-whatsapp"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://wa.me/5519989088115" target="_blank" class="twitter"><i class="bi bi-whatsapp"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
       </div>
 

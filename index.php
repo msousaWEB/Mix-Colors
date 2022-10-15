@@ -27,6 +27,9 @@
     <!-- ======= Portfolio Section ======= -->
     <?php include_once("views/partials/layouts/portfolio_section.php")?>
 
+    <!-- ======= Contact Section ======= -->
+    <?php include_once("views/partials/layouts/contact_section.php")?>
+
   </main>
 
   <!-- ======= Footer ======= -->

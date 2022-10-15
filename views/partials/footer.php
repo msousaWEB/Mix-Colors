@@ -15,9 +15,11 @@
                         <div class="footer-links">
                             <h4>Links úteis</h4>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#about">About us</a></li>
-                                <li><a href="#services">Services</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="#about">Sobre nós</a></li>
+                                <li><a href="#services">Nossos Serviços</a></li>
+                                <li><a href="#portfolio">Portfólio</a></li>
+                                <li><a href="#contact">Contato</a></li>
                             </ul>
                         </div>
                     </div>
@@ -29,19 +31,18 @@
                         <div class="footer-links">
                             <h4>Contate-nos</h4>
                             <p>
-                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Telefone:</strong><a href="https://wa.me/5519989088115" target="_blank"><?=TELEFONE?></a><br>
                                 <strong>Email:</strong> info@example.com<br>
                             </p>
                         </div>
                     </div>
 
                     <div class="col-sm">
-                        <h4>Siga-nos!</h4>
+                        <h4>Siga-nos nas redes!</h4>
                         <div class="social-links">
-                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://wa.me/5519989088115" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
@@ -71,29 +72,6 @@
   <!-- Template Main JS File -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="assets/js/main.js"></script>
-  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
-
-  <script>
-    var typingEffect = new Typed (".multiText", {
-        strings: ["Portfolio.", "Marketing.", "Design."],
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 80,
-        backDelay: 1500,
-    })
-
-    Email.send({
-        Host : "smtp.yourisp.com",
-        Username : "username",
-        Password : "password",
-        To : 'them@website.com',
-        From : "you@isp.com",
-        Subject : "This is the subject",
-        Body : "And this is the body"
-      }).then(
-        message => alert(message)
-    );
-</script>
 
 </body>
 

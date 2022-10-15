@@ -1,3 +1,4 @@
+<?require("./main.php")?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
