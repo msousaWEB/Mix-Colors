@@ -742,9 +742,9 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #2d2b46;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
-  padding: 40px 0;
+  padding: 150px 0;
 }
 
 #call-to-action .cta-title {

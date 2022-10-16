@@ -16,13 +16,13 @@
     <?php include_once("views/partials/layouts/services_section.php")?>
 
     <!-- ======= Why Us Section ======= -->
-    <?php include_once("views/partials/layouts/whyus_section.php")?>
+    <!-- <?php include_once("views/partials/layouts/whyus_section.php")?> -->
 
     <!-- ======= Call To Action Section ======= -->
     <?php include_once("views/partials/layouts/calltoaction_section.php")?>
 
     <!-- ======= Features Section ======= -->
-    <?php include_once("views/partials/layouts/features_section.php")?>
+    <!-- <?php include_once("views/partials/layouts/features_section.php")?> -->
   
     <!-- ======= Portfolio Section ======= -->
     <?php include_once("views/partials/layouts/portfolio_section.php")?>
